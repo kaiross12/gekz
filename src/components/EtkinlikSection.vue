@@ -175,7 +175,7 @@ methods: {
     getEventLink(id) {
         // ID 1 ve 2 için göreceli yolu döndür
         if (id === 1 || id === 2) {
-            return '/gekz2'; 
+            return 'https://gekz.vercel.app/#/gekz2'; 
         }
         return '#'; // Diğerleri için varsayılan hash linki
     },
